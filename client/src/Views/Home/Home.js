@@ -25,7 +25,7 @@ function Home(){
     return(
         <div>
             <Navbar/>
-            <h1 className="text-center">All products</h1>
+          
 
                 <div className="product-container">
 
