@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import './Signup.css'
 import axios from 'axios'
 import Navbar from "../../Components/Navbar/Navbar";
@@ -85,6 +86,8 @@ function Signup(){
                                     }}/>
 
                                 </div>
+
+                                <span>Already have account? <Link to='/login' className='links'>Login</Link></span>
 
                                 <button type="button"
                                 onClick={signup} 

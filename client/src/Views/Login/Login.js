@@ -2,6 +2,7 @@ import React,{useState} from "react";
 import axios from'axios';
 import './Login.css'
 import Navbar from "../../Components/Navbar/Navbar";
+import { Link } from "react-router-dom";
 
 function Login()
 {
@@ -52,6 +53,8 @@ function Login()
                      }}/>
 
                 </div>
+
+                <span className="text-center">New User? please<Link to='/signup' className='links'>Signup</Link></span>
 
                 <button className="login-btn"
                  type="button" onClick={login}>
