@@ -26,6 +26,7 @@ function Home(){
         <div>
             <Navbar/>
           
+          
 
                 <div className="product-container">
 

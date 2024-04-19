@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: right;
-    background-color: #f2f2f2;
+    background-color: #5a3232;
     padding: 10px;
   
 }
@@ -17,7 +17,7 @@
 .links
 {
     margin: 10px;
-    color: #000;
+    color: #fff;
     text-decoration: none;
     cursor: pointer;
    
